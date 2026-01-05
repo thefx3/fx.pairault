@@ -13,7 +13,7 @@ export default function MainLayout() {
             <Outlet />
             </main>
     
-            <footer className="border-t py-6 text-sm">
+            <footer className="border-t px-4 py-4 text-sm">
                 <Footer />
             </footer>
         </div>
