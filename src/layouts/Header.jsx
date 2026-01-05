@@ -1,5 +1,5 @@
 export default function Header() {
-    const base = "text-sm rounded-md font-medium hover:text-white hover:bg-black px-4 py-2 content-center text-center";
+    const base = "text-sm rounded-md font-medium hover:text-white hover:bg-black px-4 py-2 content-center text-center transition-all duration-200";
     const links = [
         { id: "skills", label: "Compétences" },
         { id: "projects", label: "Projets" },
