@@ -1,5 +1,5 @@
 export default function Projects() {
     return (
-        <div className="text-2xl font-semibold">My Projects</div>
+        <div className="text-4xl font-semibold">My Projects</div>
     )
 }

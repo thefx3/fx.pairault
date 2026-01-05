@@ -1,5 +1,6 @@
 export default function Header() {
-    const base = "text-sm rounded-md font-medium hover:text-white hover:bg-black px-4 py-2 content-center text-center transition-all duration-200";
+    const base = "text-md rounded-md font-medium px-4 py-2 hover:scale-103 hover:text-[#7eb077] content-center text-center transition-all duration-200";
+    const title = "text-lg rounded-md font-medium text-[#7eb077] px-4 py-2 content-center text-center transition-all duration-200";
     const links = [
         { id: "skills", label: "Compétences" },
         { id: "projects", label: "Projets" },
@@ -16,9 +17,9 @@ export default function Header() {
     };
   
     return (
-    <nav className="flex flex-row flex-wrap py-2 px-2 max-w-5xl mx-auto w-full justify-between">
+    <nav className="flex flex-row flex-wrap py-1 px-2 max-w-5xl mx-auto w-full justify-between">
         <nav className="py-4 flex flex-row">
-            <a href="#home" className={base} onClick={handleScroll("home")}>François-Xavier Pairault</a>
+            <a href="#home" className={title} onClick={handleScroll("home")}>François-Xavier Pairault</a>
         </nav>
         <nav className="py-4 flex gap-6">
             {links.map(link => (
