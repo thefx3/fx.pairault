@@ -36,6 +36,22 @@ export default function Projects() {
       live: "https://thefx3.github.io/cv-app/",
     },
     {
+        title: "Members Only",
+        subtitle: "Project using the authentification with Express and Node.js",
+        statut: "termine",
+        skills: ["Express", "Node.js"],
+        github: "https://github.com/thefx3/members-only",
+        live: "",
+      },
+      {
+        title: "File Uploader",
+        subtitle: "Project using the Supabase database to upload file",
+        statut: "termine",
+        skills: ["Express", "Node.js", "Supabase"],
+        github: "https://github.com/thefx3/file-uploader",
+        live: "",
+      },
+    {
       title: "Client 1",
       subtitle: "Website for a client for his Studio",
       statut: "en_cours",
@@ -56,16 +72,16 @@ export default function Projects() {
       subtitle: "Website of an app",
       statut: "a_venir",
       skills: ["React", "Vite"],
-      github: "https://github.com/thefx3/test-flce",
-      live: "https://thefx3.github.io/test-flce/",
+      github: "",
+      live: "",
     },
     {
       title: "Client 3",
       subtitle: "Website of a client for her construction company",
       statut: "a_venir",
       skills: ["React", "Vite"],
-      github: "https://github.com/thefx3/test-flce",
-      live: "https://thefx3.github.io/test-flce/",
+      github: "",
+      live: "",
     },
   ];
 
@@ -79,15 +95,15 @@ export default function Projects() {
   const filtered = projects.filter((p) => p.statut === activeTab);
 
   return (
-    <div className="space-y-6">
-      <div className="space-y-2 flex flex-col">
+    <div className="space-y-6 text-center">
+      <div className="space-y-2 flex flex-col items-center text-center gap-4">
         <h2 className="text-2xl uppercase tracking-[0.25em] text-white-900">Mes projets</h2>
-        <p className="text-neutral-600 max-w-2xl">
+        <p className="text-lg text-white-600 max-w-2xl mx-auto">
           Sélection de travaux personnels et clients. Chaque projet est livré avec son lien live et son code source.
         </p>
       </div>
 
-      <div className="flex flex-wrap gap-3">
+      <div className="flex flex-wrap gap-3 justify-center md:justify-start">
         {tabs.map((tab) => (
           <button
             key={tab.id}
