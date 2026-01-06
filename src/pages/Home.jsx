@@ -17,7 +17,7 @@ export default function Home() {
 
     return (
         <div className="px-2 space-y-20 text-center">
-            <section id="home" className="flex flex-col items-center gap-10 py-8 scroll-mt-24">
+            <section id="home" className="flex flex-col items-center gap-10 py-8">
                 <div className="space-y-4 max-w-3xl">
                     <h1 className="text-3xl md:text-4xl font-bold text-white-900 leading-tight">
                         François-Xavier Pairault

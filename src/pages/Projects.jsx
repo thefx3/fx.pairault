@@ -21,7 +21,7 @@ export default function Projects() {
     },
     {
       title: "Weather App",
-      subtitle: "Weather App using Html, Css and Javascript and to learn using API",
+      subtitle: "Weather App using Html, Css and Javascript and using public API",
       statut: "termine",
       skills: ["CSS", "HTML", "Javascript"],
       github: "https://github.com/thefx3/weather-app",
