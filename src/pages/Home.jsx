@@ -82,6 +82,7 @@ export default function Home() {
                 <Projects />
             </section>
 
+
             <section id="about" className="space-y-4 py-16 scroll-mt-24">
                 <About />
             </section>

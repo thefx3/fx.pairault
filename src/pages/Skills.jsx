@@ -33,11 +33,11 @@ export default function Skills() {
 
   return (
     <div className="space-y-10">
-      <h2 className="text-4xl font-semibold">Compétences</h2>
+      <h2 className="text-2xl uppercase tracking-[0.25em] text-white-900">Compétences</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {sections.map((section) => (
-          <div key={section.title} className="rounded-lg border p-6 space-y-3">
+          <div key={section.title} className="rounded-lg border border-[#7eb077] p-6 space-y-3">
             <h3 className="text-2xl font-semibold text-center">{section.title}</h3>
             <div className="flex flex-wrap gap-4 justify-center">
               {section.items.map(({ Icon, label, color }) => (
