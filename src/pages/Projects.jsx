@@ -65,7 +65,7 @@ export default function Projects() {
       statut: "en_cours",
       skills: ["React", "Vite", "Express", "Node.js", "Supabase"],
       github: "",
-      live: "https://thefx3.github.io/test-flce/",
+      live: "",
     },
     {
       title: "Client 2",
