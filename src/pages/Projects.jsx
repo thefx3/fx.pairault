@@ -33,7 +33,7 @@ export default function Projects() {
       statut: "termine",
       skills: ["React", "Vite"],
       github: "https://github.com/thefx3/cv-app",
-      live: "https://thefx3.github.io/cv-app/",
+      live: "https://cv-2ygm7p7e3-fxpairault-1550s-projects.vercel.app/",
     },
     {
         title: "Members Only",
@@ -56,15 +56,15 @@ export default function Projects() {
       subtitle: "Website for a client for his Studio",
       statut: "en_cours",
       skills: ["React", "Vite"],
-      github: "https://github.com/thefx3/studio-ag",
-      live: "https://thefx3.github.io/studio-ag/",
+      github: "",
+      live: "https://www.studioag.fr/",
     },
     {
       title: "French Test Online",
       subtitle: "Project in building designed for a futur client",
       statut: "en_cours",
       skills: ["React", "Vite", "Express", "Node.js", "Supabase"],
-      github: "https://github.com/thefx3/test-flce",
+      github: "",
       live: "https://thefx3.github.io/test-flce/",
     },
     {
