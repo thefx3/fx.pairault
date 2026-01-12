@@ -3,7 +3,7 @@ import { BsNodePlusFill } from "react-icons/bs";
 import { DiNodejs, DiPostgresql } from "react-icons/di";
 import { FaCss3Alt, FaHtml5, FaJs, FaNodeJs, FaReact } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
-import { RiNodejsFill, RiSupabaseFill, RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill, RiNodejsFill, RiSupabaseFill, RiTailwindCssFill } from "react-icons/ri";
 import { SiPrisma } from "react-icons/si";
 
 
@@ -18,6 +18,7 @@ export default function Skills() {
         { Icon: FaJs, label: "JavaScript", color: "text-yellow-400" },
         { Icon: FaReact, label: "React.js", color: "text-sky-400" },
         { Icon: RiTailwindCssFill, label: "Tailwind CSS", color: "text-cyan-400" },
+        { Icon: RiNextjsFill, label: "Next.js", color: "text-black" },
       ],
     },
     {

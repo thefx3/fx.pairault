@@ -83,6 +83,14 @@ export default function Projects() {
       github: "",
       live: "",
     },
+    {
+      title: "La CLEF Client",
+      subtitle: "Calendar app for La CLEF association",
+      statut: "termine",
+      skills: ["Next.js", "Vercel"],
+      github: "",
+      live: "https://laclef-news.vercel.app/",
+    },
   ];
 
   const tabs = [
