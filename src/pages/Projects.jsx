@@ -89,7 +89,7 @@ export default function Projects() {
       statut: "termine",
       skills: ["Next.js", "Vercel"],
       github: "",
-      live: "https://laclef-news.vercel.app/",
+      live: "https://laclef-nextjs.vercel.app/",
     },
   ];
 

@@ -4,7 +4,7 @@ import About from "./About.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
 import Skills from "./Skills.jsx";
-import Fx from "../images/fx.png";
+import Fx from "../images/fx.jpg";
 
 export default function Home() {
     const infos = [
